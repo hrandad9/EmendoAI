@@ -1,0 +1,15 @@
+# core
+numpy
+pillow
+ffmpeg-python
+opencv-python-headless
+whisper        # or openai-whisper depending on pip package; see note below
+whisperx       # optional, for word-level timestamps (recommended)
+torch          # install matching CPU/GPU wheel (see PyTorch site)
+pytesseract
+fastapi
+uvicorn[standard]
+python-multipart
+boto3          # optional - only if you will call real AWS S3/etc
+requests
+ffmpeg-python
